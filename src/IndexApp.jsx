@@ -8,7 +8,8 @@ const App =()=>{  //este es un tipo  de  funcion  flecha
     return(
 
         <>
-        <NavApp/>
+        <h1 className="saludo">Hola  mundo, bienvenido {user}</h1>
+    
 
         <section></section>
 
@@ -16,4 +17,5 @@ const App =()=>{  //este es un tipo  de  funcion  flecha
         </>
     )
 }
+
 export default IndexApp;
