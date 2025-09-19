@@ -1,7 +1,8 @@
+import "./Styles/IndexApp.css"
 
 
 
-const App =()=>{  //este es un tipo  de  funcion  flecha
+const IndexApp =()=>{  //este es un tipo  de  funcion  flecha
 
     const user ="Andres"
 
