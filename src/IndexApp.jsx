@@ -1,3 +1,4 @@
+import NavApp from "./Nav/NavApp";
 import "./Styles/IndexApp.css"
 
 
@@ -9,6 +10,10 @@ const IndexApp =()=>{  //este es un tipo  de  funcion  flecha
     return(
 
         <>
+
+        <NavApp/>
+
+
         <h1 className="saludo">Hola  mundo, bienvenido {user}</h1>
     
 
