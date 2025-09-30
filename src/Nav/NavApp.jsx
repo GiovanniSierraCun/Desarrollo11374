@@ -23,7 +23,7 @@ const NavApp =()=>{
         <a href="/about">Nosotros</a>
       </li>
       <li>
-        <a href="/contact">registro</a>
+        <a href="./Registro/RegistroApp.jsx">Registro</a>
       </li>
     </ul>
   </div>
