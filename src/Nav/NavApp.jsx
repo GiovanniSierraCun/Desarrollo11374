@@ -23,7 +23,9 @@ const NavApp =()=>{
         <a href="/about">Nosotros</a>
       </li>
       <li>
+       <i class="bi bi-ui-radios"></i>
         <a href="./Registro/RegistroApp.jsx">Registro</a>
+        
       </li>
     </ul>
   </div>

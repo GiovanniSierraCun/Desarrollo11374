@@ -1,39 +1,32 @@
 const Registro = ()=>{
     return(
-        <>
         
-       <h2> FORMULARIO DE  REGISTRO </h2>
-        <form onSubmit={handleSubmit}>
-            <label>Nombre: </label>
-                <input
-                type="texto"
-                className="nombre"
-                value={formData.nombre}
-                required
-                >     
-                </input>
-            <label>Correo Electronico</label>
-                <input
-                   type="email"
-                   className="email"
-                   value={formData.email}
-                   required
-                                  
-                ></input>
+        <>
+      <h1>Registro</h1>
+      <form>
+        <label>
+          Nombre:
+          <input type="text" name="name" />
+        </label>
+        <br />
+        <label>
+          Email:
+          <input type="email" name="email" />
+        </label>
+        <br />
+        <label>
+          Contraseña:
+          <input type="password" name="password" />
+        </label>
+        <br />
+        <button type="submit">Registrarse</button>
+      </form>
 
-            <label>Contrasena</label>
-            <input 
-            type="password"
-            className="password"
-            required
-            onChange={handleChange}
-
-             >
-            </input>    
-        <button type="submit" >Registrese</button>
-    </form>
+    
+    
+    </>
      
-        </>
+        
 
 
     ),
