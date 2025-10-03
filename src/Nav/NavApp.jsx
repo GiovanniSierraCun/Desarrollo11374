@@ -1,5 +1,13 @@
 import "../Styles/NavApp.css"
 
+/*las  siguientes  importaciones son  para el  apuntamiento  en  la pagina*/
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Link } from 'react-router-dom'; 
+import Registro from "../Registro/registroApp"
+
+
+
+
 const NavApp =()=>{ 
 
     return(
@@ -23,10 +31,8 @@ const NavApp =()=>{
         <a href="/about">Nosotros</a>
       </li>
       <li>
-       <i class="bi bi-ui-radios"></i>
-        <a href="./Registro/RegistroApp.jsx">Registro</a>
-        
-      </li>
+               <Link to="/registro">Registro</Link>
+        </li>
     </ul>
   </div>
   <div className="navbar-right">

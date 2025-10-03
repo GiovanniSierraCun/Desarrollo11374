@@ -1,3 +1,7 @@
+import React from "react";
+
+
+
 const Registro = ()=>{
     return(
         
@@ -29,8 +33,8 @@ const Registro = ()=>{
         
 
 
-    ),
+    );
 
-}
+};
 
 export default Registro;
