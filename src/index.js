@@ -2,7 +2,8 @@ import reactDom from"react-dom/client";
 import IndexApp from "./IndexApp.jsx";
 
 import React from "react";
-import Registro from "./Registro/registroApp.jsx";
+import RegistApp from "./Registro/registroApp.jsx";
+import LoginApp from "./Login/LoginApp.jsx";
 /* implementacion  del  router*/
 import{
     createBrowserRouter,
@@ -15,7 +16,10 @@ import{
 const router=createBrowserRouter(
     createRoutesFromElements(
        <Route path="/" element={<IndexApp/>}>,
-        <Route path="/registro" element={<Registro/>}/>,
+       <Route path="/registro" element={<RegistApp/>}/>,
+        <Route path="/login" element={<LoginApp/>}/>,
+    
+    
     </Route>
     )
 );

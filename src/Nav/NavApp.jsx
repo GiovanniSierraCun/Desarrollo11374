@@ -3,7 +3,9 @@ import "../Styles/NavApp.css"
 /*las  siguientes  importaciones son  para el  apuntamiento  en  la pagina*/
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Link } from 'react-router-dom'; 
-import Registro from "../Registro/registroApp"
+import Registro from "../Registro/registroApp";
+import LoginApp from "../Login/LoginApp";
+import React from "react";
 
 
 
@@ -12,7 +14,7 @@ const NavApp =()=>{
 
     return(
         <>
-          <nav className="navbar">
+           <nav className="navbar">
   <div className="navbar-left">
     <a href="/" className="bi bi-house-dash">   
       Mi Lavanderia
@@ -28,11 +30,14 @@ const NavApp =()=>{
         
       </li>
       <li>
-        <a href="/about">Nosotros</a>
+        <Link to="/FormApp">Pagina  de  prueba</Link>
       </li>
       <li>
-               <Link to="/registro">Registro</Link>
-        </li>
+        <Link to="/registro">Registro</Link>
+      </li>
+      <li>
+          <Link to="/login">Iniciar Sesion</Link>
+       </li>
     </ul>
   </div>
   <div className="navbar-right">
@@ -46,7 +51,7 @@ const NavApp =()=>{
     </a>
   </div>
 </nav>
-        
+         
         
         
         
